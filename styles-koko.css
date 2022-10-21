@@ -1,0 +1,130 @@
+#gallery-photos {
+    height: 13vw;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden
+}
+
+#logo-frontpage {
+    border-radius: 50%;
+    
+    height: auto;
+    width: 20vw;
+}
+
+#frontpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:40vw;
+    background-position:center;
+    background-size: cover;
+    flex-direction: column;
+    /* vertical-align: middle; */
+
+    /* margin: auto; */
+}
+
+
+/* .navbar #nav-container #nav-buttons  {
+    display: flex;
+
+
+    justify-content: right;
+} */
+
+#nav-logo {
+    height:6.5vw;
+    width: auto;
+
+}
+#text-container {
+
+    text-align: left;
+    margin: auto;
+    padding: 2vw;
+}
+#slogan {
+    /* font-weight: 100; */
+    color: rgb(182, 0, 0);
+    font-size: 1.85vw;
+    font-weight: bold;
+    /* padding: 1rem; */
+    /* background-color: lightgray; */
+    opacity: 100%;
+    overflow: auto;
+    /* background-blend-mode: lighten; */
+}
+
+
+#image-gallery {
+    padding-top: 3vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* padding-bottom: 3vw; */
+}
+
+#menu-title, #order-takeout-title {
+    font-size: 5vw;
+}
+
+#menu-subtitle, #order-takeout-subtitle {
+    font-size: 2vw;
+}
+#order-takeout-button, #view-menu-button {
+    --bs-btn-padding-y: 1vw;
+    --bs-btn-padding-x: 1vw;
+    --bs-btn-font-size: 2vw;
+    --bs-btn-border-radius: 1vw;
+}
+
+#logo-footer {
+    border-radius: 50%;
+    
+    height: auto;
+    width: 15vw;
+    padding-top: 1rem;
+}
+
+/* #footer {
+    padding-top: 1rem;
+} */
+#header-location {
+    font-size: 1.5vw;
+
+
+}
+#header-location-title {
+    font-size: 2vw;
+}
+
+#footer-title-text {
+    font-size: 2vw;
+    padding-top: 1rem;
+}
+
+#footer-text {
+    font-size: 1.5vw;
+}
+
+#locations {
+    padding: 1vw;
+}
+
+#menu-locations-nav-bar, #order-online-locations-nav-bar {
+    text-align: center;
+}
+
+/* #Menu #Order-Takeout {
+    padding-top: 3vw;
+    padding-bottom: 200px;
+} */
+
+
+
+
+/* .row {
+    max-height: 30vh;
+} */
